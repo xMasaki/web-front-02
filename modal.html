@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+  <button>Clique aqui</button>
+  <div class="poupup-wrapper d-none">
+    <div class="poupup">
+      <div class="poupup-close">x</div>
+
+      <div class="poupup-content">
+        <h2>Popup elegante</h2>
+        <p>O Autor do popup foi o programador Fulano</p>
+        <a href="#" class="poupup-link">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="info-user">
+    <div class="form-control">
+      <input type="text" id="text-user" placeholder="Digite seu nome" />
+      <button id="screen-name">Mandar info na tela</button>
+    </div>
+    <ul class="result"></ul>
+  </div>
+  
+  <script src="modal.js"></script>
+  <script src="user.js"></script>
+</body>
+</html>
