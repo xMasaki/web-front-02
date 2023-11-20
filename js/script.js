@@ -18,7 +18,7 @@ buttonValidacao.addEventListener("click", function(event) {
     // console.log(campoNome.value);
     if(campoNome.value.trim() === '') {
         alert("Preencha o campo nome");
-        return; //= return false
+        return false; //= return false
     }
 
     if(campoCidade.value.trim() === '') {
