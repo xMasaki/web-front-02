@@ -15,7 +15,7 @@ function escolha(){
 }
 
 function escolhaOponente(){
-    x = Math.round(Math.random(2)*1000)
+    x = Math.round(Math.random(2)*100000)
     oponenteValor = x%3
     // 0-pedra   1-papel   2-tesoura
     console.log(oponenteValor)
