@@ -1,0 +1,14 @@
+npm create vite@latest
+y
+nome do projeto 
+
+- vanilla -> sem uso de externos 
+
+- react > JavaScript 
+
+
+cd [nome do projeto]
+npm install 
+npm run dev 
+
+
